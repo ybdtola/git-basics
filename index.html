@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=button, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        #git-button {
+            padding: 10px 12px;
+            cursor: pointer;
+            background-color: dodgerblue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="git-button">Hello, Git!</button>
+    <p>End of Story!</p>
+</body>
+<script>
+    const gitButton = document.getElementById("git-button");
+    gitButton.addEventListener("click", function() {
+        window.location.href = "https://github.com";
+    })
+</script>
+
+</html>
