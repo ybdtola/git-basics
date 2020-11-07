@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#git-button {
+    padding: 10px 12px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
